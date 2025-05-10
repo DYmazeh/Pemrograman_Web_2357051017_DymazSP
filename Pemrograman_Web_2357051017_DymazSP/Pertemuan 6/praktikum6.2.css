@@ -1,0 +1,53 @@
+* {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.intro {
+  background-color: #f4f4f4;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.highlight.special {
+  color: #f44336;
+  font-weight: bold;
+}
+
+#main-title {
+  text-align: center;
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+div p {
+  color: #555;
+  margin: 10px 0;
+}
+
+div > p {
+  color: #333;
+  font-style: italic;
+}
+
+h2 + p {
+  color: #4caf50;
+  font-size: 18px;
+}
+
+p ~ ul {
+  background-color: #e2e2e2;
+  padding: 10px;
+  list-style-type: square;
+  margin: 10px 0;
+}
+#id {
+  color: #2196f3;
+  font-weight: bold;
+  text-decoration: underline;
+}
+ul li:first-child {
+  color: #ff9800;
+  font-weight: bold;
+}
