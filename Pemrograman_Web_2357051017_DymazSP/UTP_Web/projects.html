@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Projects -Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<style>
+    /* Mengubah warna tautan agar tidak biru */
+    a {
+      color: inherit; /* Warna mengikuti warna teks di sekitarnya */
+      text-decoration: none; /* Menghapus garis bawah pada tautan */
+    }
+
+    a:hover {
+      color: #ff00ff; /* Contoh warna neon ketika hover, bisa diganti sesuai keinginan */
+    }
+  </style>
+<body>
+  <header class="main-header">
+    <div class="portfolio-label">My Portfolio</div>
+    <nav class="main-nav">
+      <a href="index.html" class="nav-link">← Back</a>
+    </nav>
+  </header>
+
+  <!-- Background Kanan Atas -->
+  <div class="background-box right">
+    <img src="images/Background.png" alt="Background" class="bg-image" />
+  </div>
+
+  <!-- Background Kiri Bawah Zigzag -->
+  <div class="background-box left">
+    <img src="images/Background.png" alt="Background" class="bg-image" />
+  </div>
+
+  <!-- Karakter dengan posisi kiri dan zoom -->
+  <div class="character-wrapper">
+    <img src="images/component.png" alt="Character" class="character zoomed-left" id="character" />
+  </div>
+
+  <!-- Konten Halaman -->
+  <section class="page-content">
+    <h1>Projects</h1>
+
+    <!-- Project 1: Alien Killer -->
+    <div class="project">
+      <h2>Project 1: Alien Killer</h2>
+      <p>
+        Sebuah game 2D sederhana yang dikembangkan menggunakan Java dengan konsep Pemrograman Berbasis Objek (OOP). Game ini menampilkan pesawat luar angkasa yang melawan gelombang musuh alien. Proyek ini menekankan pada mekanisme permainan dan antarmuka pengguna interaktif.
+      </p>
+      <a href="https://github.com/DYmazeh/UAP_PBO_AlienKiller" target="_blank">Lihat di GitHub</a>
+    </div>
+
+    <!-- Project 2: Sistem Manajemen Kursus Online -->
+    <div class="project">
+      <h2>Project 2: Sistem Manajemen Kursus Online</h2>
+      <p>
+        Sistem manajemen kursus online yang dibangun dengan PHP dan MySQL. Sistem ini membantu instruktur dalam mengelola kursus dan siswa dengan efisien. Fitur-fiturnya termasuk pembuatan kursus, pendaftaran siswa, dan pelacakan kemajuan.
+      </p>
+      <a href="https://github.com/DYmazeh/Sistem-Manajemen-Kursus-Online" target="_blank">Lihat di GitHub</a>
+    </div>
+
+  </section>
+</body>
+</html>
